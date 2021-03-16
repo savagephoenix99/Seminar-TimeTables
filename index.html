@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Favorite and Least Favorite Things
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+
+          table, th, td {
+            border: 3px solid rgb(4, 0, 255);
+            border-collapse: collapse;
+          }
+          th, td{
+              padding:40px;
+              text-align: center;
+          }
+          table.center {
+            margin-left: auto;
+            margin-right: auto;
+          }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1 style="color: rgb(201, 201, 201); text-align: center;  font-family: Chopsic;">Favorite and Least Favorite Things</h1>
+        </div>
+        <hr style="height: 10px;border-width:0;color:rgb(62, 41, 255);background-color:rgb(62, 41, 255)">
+        
+<table style="background-color: rgb(90, 90, 90)" class="center">
+<div class="table">  
+  <tr>
+        <th rowspan="3" bgcolor="#2A96B5">Day</th>
+        <th colspan="3" bgcolor="#FA691D">Seminar</th>
+    </tr>
+    <tr>
+        <th colspan="2" bgcolor="palevioletred">Schedule</td>
+        <th rowspan="2" bgcolor="#F7A100">Topic</th>
+    </tr>
+    <tr>
+        <th colspan="1" bgcolor="#FE1A1A">Begin</th>
+        <th colspan="1" bgcolor="#FE1A1A">End</th>
+    </tr>
+
+    <!--MONDAY-->
+
+    <tr>
+        <th rowspan="2" bgcolor="darkcyan">Monday</th>
+        <td rowspan="2" bgcolor="#B64DFF">8:00 am</td>
+        <td rowspan="2" bgcolor="#B64DFF">5:00 am</td>
+        <td bgcolor="#00FF04" >Introduction to XML</td>
+    </tr>
+    <tr>
+        <td bgcolor="#00FF04" >Validity: DTD and Relax NG</td>
+    </tr>
+
+    <!--TUESDAY-->
+
+    <tr>
+        <th rowspan="3" bgcolor="darkcyan">Tuesday</th>
+        <td bgcolor="#B64DFF">8:00 am</td>
+        <td bgcolor="#B64DFF">11:00 am</td>
+        <td bgcolor="#00FF04" >XPath</td>
+    </tr>
+
+    <tr>
+        <td bgcolor="#B64DFF">11:00 pm</td>
+        <td bgcolor="#B64DFF">2:00 pm</td>
+        <td bgcolor="#00FF04" rowspan="2">XSL transformations</td>
+    </tr>
+
+    <tr>
+        <td bgcolor="#B64DFF">2:00 pm</td>
+        <td bgcolor="#B64DFF">5:00 pm</td>
+    </tr>
+
+    <!--WEDNESDAY-->
+    <tr>
+        <th rowspan="2" bgcolor="darkcyan">Wednesday</th>
+        <td rowspan="2" bgcolor="#B64DFF">8:00 am</td>
+        <td rowspan="2" bgcolor="#B64DFF">12:00 pm</td>
+        <td bgcolor="#00FF04" >XSL Formatting Objects</td>
+    </tr>
+</div>
+    </body>
+</html>

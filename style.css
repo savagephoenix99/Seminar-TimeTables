@@ -1,0 +1,21 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+.header{
+  color:rgb(31, 31, 31)
+}
+body {
+  background-image: url('BgIMG.jpg');
+  background-repeat: no-repeat;
+}
+td{
+  font-family: "Berlin Sans FB";
+  font-size: 18px;
+  color:rgb(29, 29, 29);
+}
+th{
+  font-family: "Berlin Sans FB";
+  font-size: 19px;
+  color:black;
+}
